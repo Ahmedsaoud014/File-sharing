@@ -30,6 +30,10 @@ if not users.find_one({'username': 'admin'}):
 # CSS Styles
 # ========================
 common_css = '''
+<head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8057905469287806"
+     crossorigin="anonymous"></script>
+</head>
 <style>
 .btn-warning {
     background: #ffc107;
