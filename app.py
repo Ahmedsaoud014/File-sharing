@@ -12,7 +12,7 @@ app.config['UPLOAD_FOLDER'] = os.path.abspath('uploads')
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
 # MongoDB setup
-client = MongoClient('mongodb://Files:<db_password>@cluster0-shard-00-00.trlfm.mongodb.net:27017,cluster0-shard-00-01.trlfm.mongodb.net:27017,cluster0-shard-00-02.trlfm.mongodb.net:27017/?ssl=true&replicaSet=atlas-toae0q-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0')#حط رابط الدلتا بيز بتاعتك
+client = MongoClient('mongodb://Files:Ma_213243@cluster0-shard-00-00.trlfm.mongodb.net:27017,cluster0-shard-00-01.trlfm.mongodb.net:27017,cluster0-shard-00-02.trlfm.mongodb.net:27017/?ssl=true&replicaSet=atlas-toae0q-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0')#حط رابط الدلتا بيز بتاعتك
 db = client['file_sharing']
 users = db.users
 files = db.files
