@@ -31,6 +31,7 @@ if not users.find_one({'username': 'admin'}):
 # ========================
 common_css = '''
 <head>
+<meta name="google-site-verification" content="PEUr7KD28XnhY5CRydfpz96TPOEvAElkErkdMdYZkus" />
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8057905469287806"
      crossorigin="anonymous"></script>
 </head>
